@@ -7,6 +7,38 @@
     <link rel="stylesheet" href="../style.css" />
     <style>
       /* Doe hier jouw ding! */
+      body{
+       margin: .5em;
+        gap: 1.5em;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+          "."
+          "zoeken"
+          "kopje"
+          "text"
+          "teen"
+      }
+
+      header{
+        grid-area: kopje;
+        transform: rotate(15deg);
+      }   
+
+      nav{
+        grid-area: kopje;
+        transform: rotate(-15deg)
+      }
+      
+      main{
+        grid-area: text;
+      }
+
+      footer{
+        grid-area: teen;
+      }
+      
     </style>
   </head>
   <body id="advanced-layout-3">
