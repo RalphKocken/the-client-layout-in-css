@@ -3,7 +3,7 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Layout in CSS
 
-Een oefening in grid-layout met CSS. Het is bedoeld om die functie en mogelijkheden van grid-box te leren. 
+Een oefening in grid-layout met CSS. Het is bedoeld om de functie en mogelijkheden van grid-box te leren. 
 
 Bekijk hier de oefening!
 https://ralphkocken.github.io/the-client-layout-in-css/
